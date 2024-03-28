@@ -32,17 +32,18 @@ export default function HeroLanding() {
             bgGradient={
               "linear(to-tr, brand.main, brand.200, brand.300, brand.400, brand.600)"
             }
+            bgClip="text"
             fontSize={{ md: "100px", sm: "6xl" }}
             fontWeight="extrabold"
           >
-            OUTREACH BOT
+            SUPERCHARGE
           </Text>
           <br />
-          Your Connection Platform hohohohohohohohoho
+          Your Notion Docs
         </Heading>
         <Text color={"gray.500"} fontSize={"xl"}>
-          Welcome to Outreach bot: a platform to boost your work connection.
-          <br /> no plans, 100% open source.
+          Welcome to Wotion: a library of dynamic widgets for Notion.
+          <br /> No accounts, no plans, 100% open source.
         </Text>
         <Link href="#browse-anchor">
           <Button
