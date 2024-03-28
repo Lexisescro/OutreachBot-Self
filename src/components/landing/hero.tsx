@@ -32,17 +32,18 @@ export default function HeroLanding() {
             bgGradient={
               "linear(to-tr, brand.main, brand.200, brand.300, brand.400, brand.600)"
             }
+            bgClip="text"
             fontSize={{ md: "100px", sm: "6xl" }}
             fontWeight="extrabold"
           >
-            OUTREACH BOT
+            SUPERCHARGE
           </Text>
           <br />
           Your Connection Platform 
         </Heading>
         <Text color={"gray.500"} fontSize={"xl"}>
-          Welcome to Outreach bot: a platform to boost your work connection.
-          <br /> no plans, 100% open source.
+          Welcome to Outreachbot: a networking platform to boost your connection.
+          <br /> No accounts, no plans, 100% open source.
         </Text>
         <Link href="#browse-anchor">
           <Button
