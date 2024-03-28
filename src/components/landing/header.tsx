@@ -18,10 +18,11 @@ export default function Nav() {
 
           {/* CHANGE LOGO HERE */}
           <Image
-            height={75}
-            width={75}
+            
+            height={100}
+            width={100}
             src={logo}
-            alt="wotion logo"
+            alt=" logo"
             onClick={() => {
               router.push("/");
             }}

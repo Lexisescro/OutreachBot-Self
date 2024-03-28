@@ -214,66 +214,68 @@ export const VINYL_RECORD = (props: any) => (
 
 export const WIDGET_DISPLAY_SCHEMA: WidgetDisplay[] = [
   {
-    id: "stock",
-    title: "Stock Tracker",
-    img: StockImg,
-    description: "A responsive live stock data widget for your Notion docs.",
-    path: "/build/stock",
-  },
-  {
-    id: "spotify",
-    title: "Spotify Player",
-    img: SpotifyImg,
-    description:
-      "Aesthetic, minimalist Spotify embedded widget with a carousel.",
-    path: "/build/spotify",
-  },
-  {
-    id: "medium",
-    title: "Medium Reader",
+    id: "networking",
+    title: "Networking Platform",
     img: MediumImg,
     description:
-      "Catch up on your favourite Medium publications, authors, and tags.",
+      "Discover networking hub showcasing individuals from diverse fields of expertise.",
     path: "/build/medium",
   },
   {
-    id: "quote",
-    title: "Quote Widget",
-    img: QuoteImg,
-    description:
-      "Display an inspiring quote in your doc.",
-    path: "/build/quote",
+    id: "filtering",
+    title: "Filtering Feature",
+    img: StockImg,
+    description: "A filter and search platform for individuals based on sepcific preferences.",
+    path: "/build/stock",
   },
   {
-    id: "button",
-    title: "Custom Button Widget",
-    img: ButtonImg,
+    id: "mailing",
+    title: "Mailing Process",
+    img: SpotifyImg,
     description:
-      "Display a fully customizable button.",
-    path: "/build/button",
+      "Evaluate communication with professional email template based on preferences",
+    path: "/build/spotify",
   },
+
+  // {
+  //   id: "quote",
+  //   title: "Quote Widget",
+  //   img: QuoteImg,
+  //   description:
+  //     "Display an inspiring quote in your doc.",
+  //   path: "/build/quote",
+  // },
+  // {
+  //   id: "button",
+  //   title: "Custom Button Widget",
+  //   img: ButtonImg,
+  //   description:
+  //     "Display a fully customizable button.",
+  //   path: "/build/button",
+  // },
 ];
 
 export const FEATURES = [
   {
     id: 1,
-    title: 'Completely Customizable',
-    text: 'Easily customize each widget to your specifications in the builder.',
+    title: 'Massive social networking',
+    text: 'Displaying individuals with profiles relevant to your criteria. ',
+    
   },
   {
     id: 2,
-    title: 'Auto-Resizing',
-    text: 'Each widget is responsive and will adapt based on the screen size.',
+    title: 'Performance',
+    text: 'The filtering algorithm based on your preferences boost the productivity.',
   },
   {
     id: 3,
-    title: 'Performance',
-    text: 'Widgets are optimized to not slow down your Notion doc.',
+    title: 'Convenient',
+    text: 'Effortlessly select multiple individuals to send emails simultaneously.',
   },
   {
     id: 4,
-    title: 'Plug and Play',
-    text: 'No sign ups, accounts, or plans needed. Just copy the embedded link!',
+    title: 'Completely Customizable',
+    text: 'Easily customize each email to your specifications with the template support.',
   },
 ]
 

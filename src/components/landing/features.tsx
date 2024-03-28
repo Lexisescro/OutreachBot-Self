@@ -18,7 +18,7 @@ export default function Features() {
   return (
     <Box p={4} py={20}>
       <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
-        <Heading fontSize={'3xl'}>Tailored for Notion Documents</Heading>
+        <Heading fontSize={'3xl'}>Special Features</Heading>
       </Stack>
 
       <Container maxW={'6xl'} mt={10}>

@@ -33,7 +33,7 @@ export default function WidgetDisplayComponent() {
           color={useColorModeValue("brand.main", "brand.bg")}
           pb={20}
         >
-          Browse the Wotion Library
+          Browse the Outreach process
         </Heading>
         <Wrap spacing={20} justify={"center"} maxW={"6xl"}>
           {WIDGET_DISPLAY_SCHEMA.map((widget: WidgetDisplay) => (

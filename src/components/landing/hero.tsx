@@ -38,7 +38,7 @@ export default function HeroLanding() {
             OUTREACH BOT
           </Text>
           <br />
-          Your Connection Platform hohohohohohohohoho
+          Your Connection Platform 
         </Heading>
         <Text color={"gray.500"} fontSize={"xl"}>
           Welcome to Outreach bot: a platform to boost your work connection.
