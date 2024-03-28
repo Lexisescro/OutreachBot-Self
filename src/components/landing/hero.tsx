@@ -36,7 +36,7 @@ export default function HeroLanding() {
             fontSize={{ md: "100px", sm: "6xl" }}
             fontWeight="extrabold"
           >
-            SUPERCHARGE
+            OUTREACH BOT
           </Text>
           <br />
           Your Connection Platform 
